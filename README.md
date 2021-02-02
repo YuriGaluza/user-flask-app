@@ -1,4 +1,4 @@
-Сущностью User имеет поля: id, firstname, lastname, patronymic.
+Сущность User имеет поля: id, firstname, lastname, patronymic.
 
 Сервис на Flask с сервисом REST API предполагает следующие операции над сущностью User:
 -создание User,
