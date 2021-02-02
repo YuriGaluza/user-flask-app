@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS `users`;
+CREATE DATABASE `users`;
+USE `users`;
+
+CREATE TABLE `user` (
+		id INT(11) NOT NULL AUTO_INCREMENT,
+		firstname VARCHAR(50) NOT NULL,
+		lastname VARCHAR(50) NOT NULL,
+        patronymic VARCHAR(50) DEFAULT NULL,
+        PRIMARY KEY (id)
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
